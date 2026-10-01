@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Towerrush Demo</title>
+		<meta charset="UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
+		<link rel="stylesheet" href="src/style.css"/>
+	</head>
+	<body>
+		<div class="game js-game" data-phase="waiting" data-delay="5000">
+			<div class="game__wrap js-game__wrap">
+				<div class="game__canvas js-game__canvas"></div>
+
+				<button class="game__sound-controller js-game__sound-control"></button>
+
+
+				<div class="game__score-wrap">
+					<div class="game__score js-game__score">x
+						<span class="js-game__score-value">1.01</span>
+					</div>
+				</div>
+
+				<div class="multiplier-fly js-multiplier-fly"></div>
+				<div class="multiplier-sidebar js-multiplier-sidebar">
+					Results
+					<div class="multiplier-sidebar__list-wrap">
+						<div class="multiplier-sidebar__list js-multiplier-list"></div>
+					</div>
+				</div>
+
+				<div class="game__balance">
+					Saldo
+					<div class="game__balance-text">
+						<span class="game__balance-value js-game__balance">100000</span>
+						FUN
+					</div>
+				</div>
+
+				<div class="game-panel js-game__panel js-game__control-item">
+					<div class="game-panel__left active">
+						<div class="game-panel__left-wrap">
+							<div class="game-panel__bet">
+								<div class="game-panel__bet-field">
+									<button class="game-panel__bet-down js-game__controller-minus"></button>
+									<input type="text" inputmode="decimal" class="game-panel__bet-input js-game__controller-input" value="90" data-max="100000" data-min="90"/>
+									<button class="game-panel__bet-up js-game__controller-plus"></button>
+								</div>
+								<button class="game-panel__bet-btn js-game__controller-all">All-in</button>
+								<button class="game-panel__bet-btn js-game__controller-x2">x2</button>
+							</div>
+							<button class="game-panel__cashout js-game__cashout">
+								<span class="game-panel__cashout-text">
+									Saque
+								</span>
+								<span class="game-panel__cashout-sum">
+									<span class="js-game__cashout-result game-panel__cashout-result">90</span>
+									fun
+								</span>
+							</button>
+						</div>
+					</div>
+					<div class="game-panel__right">
+						<button class="game-panel__build js-game__build">
+							<span class="game-panel__build-lines"></span>
+							<span class="game-panel__build-text">
+								Construir
+							</span>
+						</button>
+					</div>
+				</div>
+
+				<div class="popup-cashout js-game__cashout-modal">
+					<div class="popup-cashout__title">Você ganhou!</div>
+					<div class="popup-cashout__row">
+						<div class="popup-cashout__result">
+							<span class="js-game__cashout-result">12345</span>
+							R$
+						</div>
+					</div>
+					<div class="popup-cashout__btns">
+						<button class="game__btn game__btn--secondary js-game__play">Jogar mais</button>
+						<button class="game__btn game__btn--primary">Com dinheiro real</button>
+					</div>
+				</div>
+
+				<div class="popup-final  js-game__final">
+					<div class="popup-final__content">
+						<div class="popup-final__text">
+							A demonstração está finalizada. Agora é hora de jogar com dinheiro real.
+																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																			                        Cadastre-se, faça um depósito e ganhe um super bônus de 150%:
+						</div>
+						<a href="#" class="game__btn btn--primary">PLAY</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="preloader js-preloader active">
+			<div class="preloader__block">
+				Loading...
+				<div class="preloader__bar">
+					<div class="preloader__progress js-preloader__progress"></div>
+				</div>
+			</div>
+		</div>
+		<script type="module" src="src/main.js"></script>
+	</body>
+</html>

@@ -1,0 +1,101 @@
+{
+    "skeleton": {
+        "hash": "w3gouvOVeWc",
+        "spine": "4.1.24",
+        "images": "../images/",
+        "audio": "../"
+    },
+    "bones": [
+        { "name": "root" },
+        { "name": "Assets", "parent": "root" },
+        { "name": "Drop_smoke", "parent": "Assets" },
+        { "name": "Stone", "parent": "root" }
+    ],
+    "slots": [
+        { "name": "Drop smoke_mob/Drop smoke_mob_0", "bone": "Drop_smoke" },
+        { "name": "Drop smoke_mob/Drop smoke_mob_1", "bone": "Drop_smoke" },
+        { "name": "Frozen_mob/Frozen_mob_0", "bone": "Assets" },
+        { "name": "resul smoke mob/resul smoke mob_74", "bone": "Assets" },
+        {
+            "name": "Bonus temple/Temple torch_mob/Temple torch_mob_0",
+            "bone": "Assets",
+            "blend": "screen"
+        },
+        { "name": "Bonus temple/Wheel_stone", "bone": "root" },
+        {
+            "name": "Bonus temple/wheel_glow_mob/wheel_glow_mob_19",
+            "bone": "root",
+            "blend": "additive"
+        },
+        {
+            "name": "Bonus temple/wheel sector glow_mob/wheel sector glow_mob_0",
+            "bone": "root",
+            "blend": "additive"
+        },
+        { "name": "Frozen_web/Frozen_web_0", "bone": "root" },
+        { "name": "triple_bonus_smoke_mob/triple_bonus_smoke_mob_0", "bone": "root" },
+        {
+            "name": "Bonus temple/Temple torch_web/Temple torch_web_0",
+            "bone": "root",
+            "blend": "screen"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "Drop smoke_mob/Drop smoke_mob_0": {
+                    "Drop smoke_mob/Drop smoke_mob_": {
+                        "x": -73.03,
+                        "y": 20.75,
+                        "width": 150,
+                        "height": 75,
+                        "sequence": { "count": 25, "start": 0 }
+                    }
+                },
+                "Drop smoke_mob/Drop smoke_mob_1": {
+                    "Drop smoke_mob/Drop smoke_mob_": {
+                        "x": 72.86,
+                        "y": 20.75,
+                        "scaleX": -1,
+                        "width": 150,
+                        "height": 75,
+                        "sequence": { "count": 25, "start": 0 }
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "drop_smoke": {
+            "slots": {
+                "Drop smoke_mob/Drop smoke_mob_0": {
+                    "attachment": [{ "name": "Drop smoke_mob/Drop smoke_mob_" }]
+                },
+                "Drop smoke_mob/Drop smoke_mob_1": {
+                    "attachment": [{ "name": "Drop smoke_mob/Drop smoke_mob_" }]
+                }
+            },
+            "attachments": {
+                "default": {
+                    "Drop smoke_mob/Drop smoke_mob_0": {
+                        "Drop smoke_mob/Drop smoke_mob_": {
+                            "sequence": [
+                                { "mode": "once", "delay": 0.0417 },
+                                { "time": 1, "index": 24 }
+                            ]
+                        }
+                    },
+                    "Drop smoke_mob/Drop smoke_mob_1": {
+                        "Drop smoke_mob/Drop smoke_mob_": {
+                            "sequence": [
+                                { "mode": "once", "delay": 0.0417 },
+                                { "time": 1, "index": 24 }
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
