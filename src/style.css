@@ -86,7 +86,7 @@ button {
     align-items: center;
     justify-content: flex-end;
 
-    background: url("/bg.webp");
+    background: url("./assets/bg.webp");
     background-position: center;
     background-size: cover;
 }
@@ -189,7 +189,7 @@ canvas {
     inset: 0;
     width: 100%;
     height: 100%;
-    background: url("/lose.webp");
+    background: url("./assets/lose.webp");
     background-position: center;
     background-size: cover;
     align-items: center;
@@ -217,7 +217,7 @@ canvas {
     left: 0;
     width: 100%;
     height: 7px;
-    background: url("/betPartBorder.webp") center / cover no-repeat;
+    background: url("./assets/betPartBorder.webp") center / cover no-repeat;
 }
 
 .game-panel__left,
@@ -259,7 +259,7 @@ canvas {
     border-radius: 0.6rem;
     gap: 10px;
     background:
-        url("/betInputBackground.webp") top center / 100% 100% no-repeat,
+        url("./assets/betInputBackground.webp") top center / 100% 100% no-repeat,
         radial-gradient(100% 100% at 50% 0%, #4d4d4d 0%, #292929 100%);
 }
 
@@ -269,7 +269,7 @@ canvas {
     justify-content: center;
     border-radius: 0.6rem;
     background:
-        url("/quickBtnBackground.webp") top center / 100% 100% no-repeat,
+        url("./assets/quickBtnBackground.webp") top center / 100% 100% no-repeat,
         radial-gradient(100% 100% at 50% 0%, #78a8ef 0%, #21539d 100%);
     color: #fff;
     font-size: 1rem;
@@ -312,7 +312,7 @@ canvas {
     height: 100%;
     border-radius: 0.8rem;
     background:
-        url("/cashoutBtn.webp") center center / 100% 100% no-repeat,
+        url("./assets/cashoutBtn.webp") center center / 100% 100% no-repeat,
         linear-gradient(to bottom, #b9ddff, #3481c9),
         radial-gradient(#68b6ff, #2476c2, #215e98);
     border: 1px solid #b9ddff;
@@ -351,7 +351,7 @@ canvas {
     height: 100%;
     border-radius: 0.8rem;
     background:
-        url("/buildBtn.webp") center center / 100% 100% no-repeat,
+        url("./assets/buildBtn.webp") center center / 100% 100% no-repeat,
         radial-gradient(100% 100% at 49.73% 0%, #ffcc49 0%, #ffc60d 35.59%, #f2b034 65.52%);
 
     border: 3px solid #ffcc49;
@@ -365,7 +365,7 @@ canvas {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    background: url("/buildBtnBolt.webp") center center / 100% 100% no-repeat;
+    background: url("./assets/buildBtnBolt.webp") center center / 100% 100% no-repeat;
 }
 
 .game-panel__build::before {
@@ -391,7 +391,7 @@ canvas {
     border-radius: 0.8rem;
     position: absolute;
     inset: 0;
-    background: url("/buildBtnLines.webp") repeat-x 0 0 / 30rem 100%;
+    background: url("./assets/buildBtnLines.webp") repeat-x 0 0 / 30rem 100%;
     -moz-animation: 15s linear infinite;
     animation: buildLines 15s linear infinite;
 }
@@ -571,7 +571,7 @@ canvas {
     gap: 20px;
     opacity: 0;
     pointer-events: none;
-    background-image: url("/win.webp");
+    background-image: url("./assets/win.webp");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -661,7 +661,7 @@ canvas {
     padding: 40px 30px 0;
 
     background: linear-gradient(180.49deg, #158ef6 -3.17%, rgb(7, 91, 255) 105.68%);
-    background: url("/lose.webp");
+    background: url("./assets/lose.webp");
     border-radius: 0.5rem 0.5rem;
     background-position: center;
     background-repeat: no-repeat;
@@ -685,7 +685,7 @@ canvas {
     width: 100%;
     height: 7px;
     border-radius: 0.5rem 0.5rem 0 0;
-    background: url("/betPartBorder.webp") center / cover no-repeat;
+    background: url("./assets/betPartBorder.webp") center / cover no-repeat;
 }
 
 .popup-final__text {
@@ -730,7 +730,7 @@ canvas {
     align-items: center;
     justify-content: center;
     background:
-        url("/cashoutBtn.webp") center center / 100% 100% no-repeat,
+        url("./assets/cashoutBtn.webp") center center / 100% 100% no-repeat,
         linear-gradient(to bottom, #b9ddff, #3481c9),
         radial-gradient(#68b6ff, #2476c2, #215e98);
     color: #fdfdf8;
